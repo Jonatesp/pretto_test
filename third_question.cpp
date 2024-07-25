@@ -16,6 +16,7 @@ void best_interests(std::map<int, double> rate_grid, int long_loan_duration) {
 			}
 		}
 	}
-	std::cout << "Best interests for the short loan with a total loan duration of 25 years based on the grid is the " << loan_duration;
+	std::cout << "Best interests for the short loan with a total loan duration of " << long_loan_duration << " years based on the grid is the " << loan_duration;
 	std::cout << " years long loan with " << best_interests << " \% of total interests." << std::endl;
+	//best_interests representant le pourcentage de la part des interets par rapport au capital total du pret
 }
